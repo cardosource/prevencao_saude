@@ -1,4 +1,4 @@
-# Prevenção de saúde mental
+# Analise de indicios de depressão em crianças
 
 
 (Algoritimo de identificação de indicio de depressão em frase)
