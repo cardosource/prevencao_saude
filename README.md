@@ -16,7 +16,13 @@ Este código é uma implementação simples de análise de sentimento, onde é d
 - `palavras`: um array de strings que armazena as palavras da frase, após a separação
 - `pontuacao_avaliacao`: um inteiro que armazena a pontuação final da frase, baseado nas palavras positivas e negativas encontradas
 
-
+## Funções
+- `avaliacao(int pontuacao)`: Essa função é chamada ao final do programa e imprime uma mensagem no console indicando se a frase é positiva, negativa ou neutra, baseado na pontuação passada como parâmetro.
+- `main()`: é a função principal do código e contém a lógica principal para analisar o sentimento da frase. Ela funciona da seguinte maneira:
+    1. A frase é armazenada na variável `frase`
+    2. Usando um loop, as palavras da frase são separadas e armazenadas no array `palavras`
+    3. Outro loop é usado para verificar se cada palavra do array `palavras` está na lista de palavras positivas ou negativas. Se estiver, a pontuação é ajustada de acordo.
+    4. A função `avaliacao()` é chamada com a pontuação final como parâmetro.
 
 _(Algoritimo de identificação de indicio de depressão em frase)_
 
