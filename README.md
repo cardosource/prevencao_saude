@@ -28,6 +28,7 @@ Este código é uma implementação simples de análise de sentimento, onde é d
    ## Considerações finais
 Este código é apenas um exemplo básico de como a análise de sentimento pode ser implementada e pode ser melhorado de várias maneiras, como adicionar mais palavras às listas, melhorar a precisão da análise, adicionar suporte para idiomas diferentes, entre outros. Além disdisso, é importante notar que a análise de sentimento é uma tarefa complexa e pode ser afetada por vários fatores, como o contexto e a sintaxe da frase. Portanto, é importante sempre testar e ajustar o código para garantir a precisão da análise.
 
+
 ## Melhorias futuras
 Adicionar mais palavras às listas de palavras positivas e negativas para aumentar a precisão da análise.
 Adicionar suporte para idiomas diferentes, incluindo a detecção automática do idioma da frase.
