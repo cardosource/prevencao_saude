@@ -6,10 +6,9 @@ using namespace std;
 template <class T>
 class AnalisadorSentimento {
 private:
-    string palavras_positivas[4] = { "bem", "feliz", "melhor", "bom" };
-    string palavras_negativas[4] = { "depremida", "triste", "cansada", "infeliz" };
+    T palavras_positivas[4] = { "bem", "feliz", "melhor", "bom" };
+    T palavras_negativas[4] = { "depremida", "triste", "cansada", "infeliz" };
     
-    // Função para avaliar o sentimento com base na pontuação
     void avaliacao(int pontuacao) {
         if (pontuacao > 0)
             cout << "O sentimento da frase é positivo!" << endl;
@@ -21,9 +20,9 @@ private:
 
 public:
      AnalisadorSentimento(T frase) {
-        string palavras[20];
+        T palavras[20];
         int i = 0;
-        string palavra;
+        T palavra;
         int pontuacao_avaliacao = 0;
         
     
@@ -54,11 +53,11 @@ public:
     }
 };
 
-int main() {
 
-string frase = "Estou me sentindo triste e desanimado";
-    
-    AnalisadorSentimento<string> *analisador = new AnalisadorSentimento<string>(frase);
+int main(int argc, char **argv){
+  
 
-    return 0;
+new AnalisadorSentimento<string>("Estou me sentindo triste e desanimado");
+
+    return EXIT_SUCCESS;
 }
