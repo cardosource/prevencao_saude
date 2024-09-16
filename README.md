@@ -16,14 +16,21 @@ Este código é uma implementação simples de análise de sentimento, onde é d
 - `palavras`: um array de strings que armazena as palavras da frase, após a separação
 - `pontuacao_avaliacao`: um inteiro que armazena a pontuação final da frase, baseado nas palavras positivas e negativas encontradas
 
-## Funções
-- `avaliacao(int pontuacao)`: Essa função é chamada ao final do programa e imprime uma mensagem no console indicando se a frase é positiva, negativa ou neutra, baseado na pontuação passada como parâmetro.
-- `main()`: é a função principal do código e contém a lógica principal para analisar o sentimento da frase. Ela funciona da seguinte maneira:
-    1. A frase é armazenada na variável `frase`
-    2. Usando um loop, as palavras da frase são separadas e armazenadas no array `palavras`
-    3. Outro loop é usado para verificar se cada palavra do array `palavras` está na lista de palavras positivas ou negativas. Se estiver, a pontuação é ajustada de acordo.
-    4. A função `avaliacao()` é chamada com a pontuação final como parâmetro.
-    
+## Classe AnalisadorSentimento
+A classe AnalisadorSentimento é uma classe genérica (template) que processa frases e analisa o sentimento delas, baseando-se em listas de palavras positivas e negativas.
+
+- Estrutura da Classe
+
+`Template`:
+
+A classe usa templates (indicados por template <class T>) para permitir que ela funcione com diferentes tipos de dados. No exemplo dado, o tipo T é tratado como std::string. Isso permite que a classe seja flexível e trabalhe com tipos diferentes sem precisar ser reescrita.
+
+`Atributos Privados`:
+
+palavras_positivas: Um array que contém palavras associadas a sentimentos positivos, como "bem", "feliz", "melhor", e "bom".
+palavras_negativas: Um array que contém palavras associadas a sentimentos negativos, como "depremida", "triste", "cansada", e "infeliz".
+Ambos arrays são usados para verificar se as palavras da frase pertencem a uma dessas listas, o que vai influenciar a pontuação final.
+
    
    ## Considerações finais
 Este código é apenas um exemplo básico de como a análise de sentimento pode ser implementada e pode ser melhorado de várias maneiras, como adicionar mais palavras às listas, melhorar a precisão da análise, adicionar suporte para idiomas diferentes, entre outros. Além disdisso, é importante notar que a análise de sentimento é uma tarefa complexa e pode ser afetada por vários fatores, como o contexto e a sintaxe da frase. Portanto, é importante sempre testar e ajustar o código para garantir a precisão da análise.
