@@ -12,7 +12,6 @@ Este código é uma implementação simples de análise de sentimento, onde é d
 ## Variáveis
 - `palavras_positivas`: uma lista de strings que contém palavras consideradas positivas
 - `palavras_negativas`: uma lista de strings que contém palavras consideradas negativas
-- `frase`: a frase cujo sentimento será avaliado
 - `palavras`: um array de strings que armazena as palavras da frase, após a separação
 - `pontuacao_avaliacao`: um inteiro que armazena a pontuação final da frase, baseado nas palavras positivas e negativas encontradas
 
@@ -30,6 +29,14 @@ A classe usa templates (indicados por template <class T>) para permitir que ela 
 palavras_positivas: Um array que contém palavras associadas a sentimentos positivos, como "bem", "feliz", "melhor", e "bom".
 palavras_negativas: Um array que contém palavras associadas a sentimentos negativos, como "depremida", "triste", "cansada", e "infeliz".
 Ambos arrays são usados para verificar se as palavras da frase pertencem a uma dessas listas, o que vai influenciar a pontuação final.
+
+
+Ambos os arrays são usados para verificar se as palavras da frase pertencem a uma dessas listas, o que vai influenciar a pontuação final.
+
+`Construtor (AnalisadorSentimento(T frase))`
+
+Responsável por inicializar a análise da frase passada como parâmetro.
+
 
    
    ## Considerações finais
