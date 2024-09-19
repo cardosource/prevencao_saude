@@ -41,7 +41,8 @@ Responsável por inicializar a análise da frase passada como parâmetro.
 
 - Passo 1: A frase recebida como argumento  e analisada caractere por caractere para separá-la em palavras individuais. Cada palavra é armazenada em um array (palavras).
 - Passo 2: Após dividir a frase em palavras, outro loop verifica cada palavra do array para ver se ela aparece nas listas de palavras positivas ou negativas. Dependendo disso, a pontuação é incrementada (se a palavra for positiva) ou decrementada (se a palavra for negativa).
-   
+- Passo 3: Após a pontuação final ser calculada, o método avaliacao() é chamado para determinar o sentimento da frase.
+
    ## Considerações finais
 Este código é apenas um exemplo básico de como a análise de sentimento pode ser implementada e pode ser melhorado de várias maneiras, como adicionar mais palavras às listas, melhorar a precisão da análise, adicionar suporte para idiomas diferentes, entre outros. Além disdisso, é importante notar que a análise de sentimento é uma tarefa complexa e pode ser afetada por vários fatores, como o contexto e a sintaxe da frase. Portanto, é importante sempre testar e ajustar o código para garantir a precisão da análise.
 
