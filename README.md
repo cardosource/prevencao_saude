@@ -1,4 +1,4 @@
-# Analise de indicios de depressão em crianças (modelo simples)
+# Analise de indicios de palavras negativas
 
 
 Este código é uma implementação simples de análise de sentimento, onde é dada uma frase e o sentimento dela é determinado como positivo, negativo ou neutro. A lógica do código baseia-se em comparar as palavras da frase com uma lista pré-definida de palavras positivas e outra lista pré-definida de palavras negativas.
