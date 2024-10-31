@@ -25,7 +25,6 @@ public:
         T palavra;
         int pontuacao_avaliacao = 0;
         
-    
         for (int j = 0; j < frase.length(); j++) {
             if (frase[j] == ' ') {
                 palavras[i] = palavra;
