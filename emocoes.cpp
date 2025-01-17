@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-
 using namespace std;
+
 template <class T>
 class AnalisadorSentimento {
 private:
