@@ -32,3 +32,22 @@ AnalisadorSentimento<T>::AnalisadorSentimento(T frase) {
 
     avaliacao(pontuacao_avaliacao);
 }
+
+template <class T>
+AnalisadorSentimento<T>::~AnalisadorSentimento() {
+    cout << "Fim do projeto\n";
+}
+
+template <class T>
+void AnalisadorSentimento<T>::avaliacao(int pontuacao) {
+    if (pontuacao > 0)
+        cout << "O sentimento da frase é positivo!" << endl;
+    else if (pontuacao < 0)
+        cout << "O sentimento da frase é negativo!" << endl;
+    else
+        cout << "O sentimento da frase é neutro." << endl;
+}
+
+ 
+template class AnalisadorSentimento<msg>;
+
