@@ -5,7 +5,7 @@
 using namespace std;
 typedef std::string msg;
 
-template <class T>
+template <typename T>
 AnalisadorSentimento<T>::AnalisadorSentimento(T frase) {
     T palavras[20];
     int i = 0;
@@ -33,12 +33,12 @@ AnalisadorSentimento<T>::AnalisadorSentimento(T frase) {
     avaliacao(pontuacao_avaliacao);
 }
 
-template <class T>
+template <typename T>
 AnalisadorSentimento<T>::~AnalisadorSentimento() {
     cout << "Fim do projeto\n";
 }
 
-template <class T>
+template <typename T>
 void AnalisadorSentimento<T>::avaliacao(int pontuacao) {
     if (pontuacao > 0)
         cout << "O sentimento da frase é positivo!" << endl;
