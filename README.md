@@ -1,7 +1,7 @@
 # Analise de palavras negativas
 
 
-Este código é uma implementação simples de análise de sentimento, onde é dada uma frase e o sentimento dela é determinado como positivo, negativo ou neutro. A lógica do código baseia-se em comparar as palavras da frase com uma lista pré-definida de palavras positivas e outra lista pré-definida de palavras negativas.
+Este código é uma implementação simples de análise de sentimento, onde é dada uma frase e o sentimento dela é determinado como positivo, negativo ou neutro. A lógica do código baseia-se em comparar as palavras da frase com uma lista pré-definida de palavras positivas e outra lista pré-definida de palavras negativas. Utiliza **classes de template** para criar uma estrutura genérica e reutilizável, permitindo flexibilidade no tipo de dados processados.
 
 ## Tecnologias utilizadas
 - Linguagem C++
