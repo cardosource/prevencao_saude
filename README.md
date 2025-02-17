@@ -45,8 +45,8 @@ Responsável por inicializar a análise da frase passada como parâmetro.
 
 `Destrutor  -   ~AnalisadorSentimento() `:
 
-- Responsável por liberar os recursos da classe quando o objeto deixa de ser usado.
-- Apesar que pode ser desecessario e não realiza nenhuma operação específica por não há recursos dinâmicos alocados, o uso é para futuras melhorias.
+- Responsável por liberar os recursos da classe quando o objeto deixa de ser usado.                           
+(Apesar que pode ser desecessario e não realiza nenhuma operação específica por não há recursos dinâmicos alocados, o uso é para futuras melhorias)
 
 
 ## Considerações finais
