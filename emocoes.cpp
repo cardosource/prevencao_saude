@@ -5,6 +5,7 @@
 using namespace std;
 typedef std::string msg;
 template <typename T>
+
 AnalisadorSentimento<T>::AnalisadorSentimento(T frase) {
     T palavras[20];
     int i = 0;
